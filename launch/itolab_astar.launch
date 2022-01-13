@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="itolab_astar" name="itolab_astar" type="itolab_astar" output="screen"/>
+    <node pkg="itolab_astar" name="test_potential_publisher" type="test_potential_publisher" output="screen"/>
+</launch>
